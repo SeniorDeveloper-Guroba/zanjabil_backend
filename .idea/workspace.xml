@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02e72075-caef-426b-95e0-8744ca2eaaaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JavaKata/app/src/main/java/com/example/javakata/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/Kata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/DefineOperasand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/ExceptionCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kata/src/RomanNumerals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTApiDjango/.idea/RESTApiDjango.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TgBot/.idea/TgBot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zanjabil_backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/project.xcworkspace/xcuserdata/seniordeveloper.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/xcuserdata/seniordeveloper.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal.xcodeproj/xcuserdata/seniordeveloper.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/AppDelegates/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressCollectionCell/Model/AddressCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressCollectionCell/View/AddressCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressCollectionCell/View/AddressCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressCollectionCell/ViewModel/AddressCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressCollectionCell/ViewModel/AddressCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressSuggestionCell/Model/AddressSuggestionCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressSuggestionCell/View/AddressSuggestionCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressSuggestionCell/View/AddressSuggestionCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressSuggestionCell/ViewModel/AddressSuggestionCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AddressSuggestionCell/ViewModel/AddressSuggestionCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AvatarColectionCell/Model/AvatarCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AvatarColectionCell/View/AvatarCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AvatarColectionCell/View/AvatarCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AvatarColectionCell/ViewModel/AvatarCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/AvatarColectionCell/ViewModel/AvatarCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DefaultAddressCell/Model/DefaultAddressCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DefaultAddressCell/View/DefaultAddressCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DefaultAddressCell/View/DefaultAddressCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DefaultAddressCell/ViewModel/DefaultAddressCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DefaultAddressCell/ViewModel/DefaultAddressCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DishCategoryCollectionCell/Model/DishCategoryModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DishCategoryCollectionCell/View/DishCategoryCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DishCategoryCollectionCell/View/DishCategoryCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DishCategoryCollectionCell/ViewModel/DishCategoryCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/DishCategoryCollectionCell/ViewModel/DishCategoryViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/HorizontalDishCollectionCell/Model/HorizontalDishModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/HorizontalDishCollectionCell/View/HorizontalDishCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/HorizontalDishCollectionCell/View/HorizontalDishCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/HorizontalDishCollectionCell/ViewModel/HorizontalDishCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/HorizontalDishCollectionCell/ViewModel/HorizontalDishViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/InputAddressCell/Model/InputAddressCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/InputAddressCell/View/InputAddressCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/InputAddressCell/View/InputAddressCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/InputAddressCell/ViewModel/InputAddressCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/InputAddressCell/ViewModel/InputAddressCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/MapCell/Model/MapCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/MapCell/View/MapCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/MapCell/View/MapCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/MapCell/ViewModel/MapCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/MapCell/ViewModel/MapCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/OrderCollectionCell/Model/OrderCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/OrderCollectionCell/View/OrderCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/OrderCollectionCell/View/OrderCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/OrderCollectionCell/ViewModel/OrderCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/OrderCollectionCell/ViewModel/OrderCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/PayOrderCollectionCell/Model/PayOrderCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/PayOrderCollectionCell/View/PayOrderCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/PayOrderCollectionCell/View/PayOrderCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/PayOrderCollectionCell/ViewModel/PayOrderCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/PayOrderCollectionCell/ViewModel/PayOrderCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/ProfileCollectionCell/Model/ProfileCollectionCellModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/ProfileCollectionCell/View/ProfileCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/ProfileCollectionCell/View/ProfileCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/ProfileCollectionCell/ViewModel/ProfileCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/ProfileCollectionCell/ViewModel/ProfileCollectionCellViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/VerticalDishCollectionCell/Model/VerticalMenuModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/VerticalDishCollectionCell/View/VerticalDishCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/VerticalDishCollectionCell/View/VerticalDishCollectionCell.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/VerticalDishCollectionCell/ViewModel/VerticalMenuCollectionCellBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Cells/VerticalDishCollectionCell/ViewModel/VerticalMenuViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/Model/AddressSuggestionsCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/View/AddressSuggestionsCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/View/AddressSuggestionsCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/ViewModel/AddressSuggestionsCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/ViewModel/AddressSuggestionsCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/ViewModel/AddressSuggestionsCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressSuggstionsCollectionView/ViewModel/AddressSuggestionsCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/Model/AddressesCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/View/AddressesCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/View/AddressesCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/ViewModel/AddressesCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/ViewModel/AddressesCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/ViewModel/AddressesCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/AddressesCollectionView/ViewModel/AddressesCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/Model/BasketCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/View/BasketCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/View/BasketCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/ViewModel/BasketCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/ViewModel/BasketCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/ViewModel/BasketCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/BascketCollectionView/ViewModel/BasketCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/Model/InputAddressCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/View/InputAddressCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/View/InputAddressCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/ViewModel/InputAddressCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/ViewModel/InputAddressCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/ViewModel/InputAddressCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/InputAddressCollectionView/ViewModel/InputAddressCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/Model/MenuCategoriesModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/View/MenuCategoriesView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/View/MenuCategoriesView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/ViewModel/MenuCategoriesCollection/MenuCategoriesCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/ViewModel/MenuCategoriesCollection/MenuCategoriesCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/ViewModel/MenuCategoriesViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCategoriesCollectionView/ViewModel/MenuCategoriesViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/Model/MenuCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/View/MenuCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/View/MenuCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/ViewModel/MenuCollection/MenuCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/ViewModel/MenuCollection/MenuCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/ViewModel/MenuCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/MenuCollectionView/ViewModel/MenuCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/Model/OrdersCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/View/OrdersCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/View/OrdersCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/ViewModel/OrdersCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/ViewModel/OrdersCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/ViewModel/OrdersCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/OrdersCollectionView/ViewModel/OrdersCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/Model/PayOrderCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/View/PayOrderCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/View/PayOrderCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/ViewModel/PayOrderCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/ViewModel/PayOrderCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/ViewModel/PayOrderCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/PayOrderCollectionView/ViewModel/PayOrderCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/Model/ProfileCollectionModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/View/ProfileCollectionView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/View/ProfileCollectionView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/ViewModel/ProfileCollection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/ViewModel/ProfileCollectionLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/ViewModel/ProfileCollectionViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/CollectionViews/ProfileCollectionView/ViewModel/ProfileCollectionViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Headers/OrderCollectionHeader.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Headers/OrderCollectionHeader.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainNavigation/Model/MainNavigationModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainNavigation/View/MainNavigationViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainNavigation/View/MainNavigationViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainNavigation/ViewModel/BuilderMainNavigation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainNavigation/ViewModel/MainNavigationViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainTabBar/Model/MainTabBarModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainTabBar/View/MainTabBarViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainTabBar/View/MainTabBarViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainTabBar/ViewModel/BuilderMainTabBar.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/MainTabBar/ViewModel/MainTabBarViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressSuggestionScreen/Model/AddressSuggestionScreenModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressSuggestionScreen/View/AddressSuggestionScreenViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressSuggestionScreen/View/AddressSuggestionScreenViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressSuggestionScreen/ViewModel/AddressSuggestionScreenViewControllerBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressSuggestionScreen/ViewModel/AddressSuggestionScreenViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressesScreen/Model/AddressesModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressesScreen/View/AddressesViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressesScreen/View/AddressesViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressesScreen/ViewModel/AddressesViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/AddressesScreen/ViewModel/BuilderAddresses.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/Model/BasketManagers.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/Model/BasketModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/View/BasketViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/View/BasketViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/ViewModel/BasketViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/ViewModel/BuilderBasket.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/BasketScreen/ViewModel/ConfiguratorBasket.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ChangeUserName/Model/ChangeUserNameModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ChangeUserName/View/ChangeUserNameViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ChangeUserName/View/ChangeUserNameViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ChangeUserName/ViewModel/BuilderChangeUserName.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ChangeUserName/ViewModel/ChangeUserNameViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/InputAddressScreen/Model/InputAddressModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/InputAddressScreen/View/ViewController/InputAddressViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/InputAddressScreen/View/ViewController/InputAddressViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/InputAddressScreen/ViewModel/BuilderInputAddress.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/InputAddressScreen/ViewModel/InputAddressViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/LoadingScreen/Model/LoadingModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/LoadingScreen/View/LoadingViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/LoadingScreen/View/LoadingViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/LoadingScreen/ViewModel/BuilderLoading.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/LoadingScreen/ViewModel/LoadingViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MapScreen/Model/MapScreenModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MapScreen/View/MapScreenViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MapScreen/View/MapScreenViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MapScreen/ViewModel/MapScreenViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MapScreen/ViewModel/MapScreenViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/Model/MenuManagers.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/Model/MenuModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/View/ActionsMenuViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/View/MenuViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/View/MenuViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/ViewModel/BuilderMenu.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/ViewModel/ConfiguratorMenu.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/MenuScreen/ViewModel/MenuViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrderScreen/Model/OrderModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrderScreen/View/ViewController/OrderViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrderScreen/View/ViewController/OrderViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrderScreen/ViewModel/BuilderOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrderScreen/ViewModel/OrderViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrdersScreen/Model/OrdersModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrdersScreen/View/OrdersViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrdersScreen/View/OrdersViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrdersScreen/ViewModel/BuilderOrders.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/OrdersScreen/ViewModel/OrdersViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/Model/PayOrderManagers.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/Model/PayOrderModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/View/ViewController/PayOrderViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/View/ViewController/PayOrderViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/ViewModel/BuilderPayOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/ViewModel/ConfiguratorPayOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/PayOrderScreen/ViewModel/PayOrderViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/Model/ProfileManagers.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/Model/ProfileModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/View/ViewController/ProfileViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/View/ViewController/ProfileViewController.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/ViewModel/Managers/BuilderProfile.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/ViewModel/Managers/ConfiguratorProfile.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Screens/ProfileScreen/ViewModel/ProfileViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ActionButtonView/Model/ActionButtonModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ActionButtonView/View/ActionButtonView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ActionButtonView/View/ActionButtonView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ActionButtonView/ViewModel/ActionButtonViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ActionButtonView/ViewModel/ActionButtonViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddAddressView/Model/AddAddressModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddAddressView/View/AddAddressView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddAddressView/View/AddAddressView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddAddressView/ViewModel/AddAddressViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddAddressView/ViewModel/AddAddressViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddDishView/AddDishView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/AddDishView/AddDishView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketInfoView/Model/BascketInfoModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketInfoView/View/BascketInfoView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketInfoView/View/BascketInfoView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketInfoView/ViewModel/BascketInfoViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketInfoView/ViewModel/BascketInfoViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketTotalSumView/Model/BasketTotalSumModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketTotalSumView/View/BasketTotalSumView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketTotalSumView/View/BasketTotalSumView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketTotalSumView/ViewModel/BasketTotalSumViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BascketTotalSumView/ViewModel/BasketTotalSumViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BuyView/BuyView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/BuyView/BuyView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/CounterDishesView/Model/CounterDishesModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/CounterDishesView/View/CounterDishesView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/CounterDishesView/View/CounterDishesView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/CounterDishesView/ViewModel/CounterDishesViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/CounterDishesView/ViewModel/CounterDishesViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ErrorView/Model/ErrorModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ErrorView/SDK/SetupFirebase.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ErrorView/View/ErrorView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ErrorView/View/ErrorView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ErrorView/ViewModel/ErrorViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/ErrorView/ViewModel/ErrorViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/InfoAlertView/Model/InfoAlertModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/InfoAlertView/View/InfoAlertView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/InfoAlertView/View/InfoAlertView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/InfoAlertView/ViewModel/InfoAlertViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/InfoAlertView/ViewModel/InfoAlertViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MapView/Model/MapModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MapView/View/MapView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MapView/View/MapView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MapView/ViewModel/MapViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MapView/ViewModel/MapViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MenuPriceView/MenuPriceView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/MenuPriceView/MenuPriceView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/PayInfoView/Model/PayInfoModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/PayInfoView/View/PayInfoView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/PayInfoView/View/PayInfoView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/PayInfoView/ViewModel/PayInfoViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/PayInfoView/ViewModel/PayInfoViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SearchAddressView/Model/SearchAddressModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SearchAddressView/View/SearchAddressView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SearchAddressView/View/SearchAddressView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SearchAddressView/ViewModel/SearchAddressViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SearchAddressView/ViewModel/SearchAddressViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/StartLoadingView/Model/StartLoadingModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/StartLoadingView/View/StartLoadingView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/StartLoadingView/View/StartLoadingView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/StartLoadingView/ViewModel/StartLoadingViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/StartLoadingView/ViewModel/StartLoadingViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SwitchMenuView/Model/SwitchMenuModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SwitchMenuView/ViewModel/SwitchMenuBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SwitchMenuView/ViewModel/SwitchMenuViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SwitchMenuView/Views/SwitchMenuView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/SwitchMenuView/Views/SwitchMenuView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/TabBarView/Model/TabBarModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/TabBarView/View/TabBarView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/TabBarView/View/TabBarView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/TabBarView/ViewModel/TabBarViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/TabBarView/ViewModel/TabBarViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/Warning/Model/WarningModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/Warning/Model/WarningText.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/Warning/View/WarningView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/Warning/View/WarningView.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/Warning/ViewModel/WarningViewBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/MVVM/Views/Warning/ViewModel/WarningViewModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/blur.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/greenFive.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/greenFore.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/greenOne.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/greenThree.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/greenTwo.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/shadowBuyView.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Colors/Colors.xcassets/shadowTabBar.colorset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/CoreDataModel/ZanjabilHalal.xcdatamodeld/ZanjabilHalal.xcdatamodel/contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/addAddress.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/addAddress.imageset/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/delete.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/delete.imageset/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/edit.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/edit.imageset/pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/pin.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Address.xcassets/pin.imageset/pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/172.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/216.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/AppIcon.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Basket.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Basket.xcassets/buy.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Basket.xcassets/buy.imageset/shopping-cart-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Logo.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Logo.xcassets/logo.imageset/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Logo.xcassets/logo.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Map.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Map.xcassets/mapPin.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Map.xcassets/mapPin.imageset/pin-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/dishOne.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/dishOne.imageset/dishOne.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/dishThree.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/dishThree.imageset/dishThree.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/dishTwo.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/dishTwo.imageset/dishTwo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/menuHorizontal.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/menuHorizontal.imageset/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/menuVertical.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Menu.xcassets/menuVertical.imageset/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Profile.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Profile.xcassets/avatar.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Profile.xcassets/avatar.imageset/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Search.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Search.xcassets/search.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/Search.xcassets/search.imageset/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/basketTabBar.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/basketTabBar.imageset/picnic-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/menuTabBar.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/menuTabBar.imageset/apps-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/ordersTabBar.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/ordersTabBar.imageset/shopping-bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/profileTabBar.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Images/TabBar.xcassets/profileTabBar.imageset/user-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/InfoPlists/GoogleService-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/InfoPlists/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Lottie/zanjabilLogo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + ActionButton.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + AddressesViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + InfoAlertService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + InputAddressCollectionCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + OrdersViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + PayInfoView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + PayOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + PayOrderViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + Profile.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + Router.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + TabBar.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/Extension + WarningService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/TextResources/TextResources.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Resources/Texts/Texts.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Alert/AlertButtonOptions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Alert/AlertButtonOptionsoble.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Alert/AlertService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/BuildersView/MainCellsBuilder/MainCellsBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/BuildersView/MainCollectionViewsBuilder/MainCollectionViewsBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/BuildersView/MainViewsBuilder/MainViewsBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Enums/EnumSession.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + CGFloat.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + CLLocation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + CharacterSet.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + Date.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + Decimal.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + EstimateText.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + Int.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + NSDecimalNumber.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringConverter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringDecode.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringEmoji.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringEncode.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringHTML.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + StringHTTP.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + TypeLink.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIAplication.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIColor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIFont.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIImage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIImageView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIStoryboard.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extension + UIViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Extensions/Extensions + Publisher.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/MainCreateController/MainCreateController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/MainRouter/MainRouter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/MainTabBarRouter/MainTabBarRouter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/MainViewControllersBuilder/MainViewControllersBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/ActionAddRemove.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/ActionButtonTitles.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/AddDishState.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/InputAddressCollectionViewType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/InputAddressTypes.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/MenuState.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/PayInfoCellTypes.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/PayOrderCollectionCells.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Models/ProfileCollectionCellType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Managers/JSONDecoderService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Managers/JSONEncoderService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/NetworkService/NetworkService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Protocols/RequestProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Protocols/SessionProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Protocols/URLCreateFirebaseProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Protocols/URLCreateProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestFirebase/RequestFirebase.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/AddressSuggestion/DECAddressSuggestion.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/AddressSuggestion/DECAddressSuggestionData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/AddressSuggestion/DECAddressSuggestions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECAddress.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECCategory.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECDish.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECMenu.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECOrderDish.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Decodable/DECProduct.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Encodable/ENCAddress.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Encodable/ENCAddressSuggestion.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Encodable/ENCDish.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Encodable/ENCOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestModels/Encodable/ENCProduct.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsAPI/GET/GETProducts.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsAPI/POST/POSTAddressSuggestion.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/DELETE/DELETEAddress.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/GET/GETAddresses.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/GET/GETOrders.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/GET/GETRestaurantMenu.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/GET/GETRestaurants.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/POST/POSTAddress.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/POST/POSTAddresses.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsFirebase/POST/POSTOrder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/RequestsRESTService/RequestsRESTService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Services/CookieService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Services/InternetСheckService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/Services/ServerRequests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLAbstractBaseService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLAbstractFactory.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLBodyService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLCreateService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLCreateStatic.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLHeaders.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLHostService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLParameters.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLPathService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLSchemeService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLStaticString.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLs/API/URLAddressSuggestion.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLs/API/URLProduct.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLs/Firebase/URLFirebaseAddress.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLs/Firebase/URLFirebaseOrders.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLs/Firebase/URLFirebaseRestaurantMenu.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/NetworkService/URL/URLs/Firebase/URLFirebaseRestaurants.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Protocols/KeyBoardProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Protocols/LoadNidoble.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Protocols/ServiceProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Protocols/VMManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Protocols/VMManagers.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Protocols/ViewModelProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Screens/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/AddressesService/AddressesService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/AmountService/AmountService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/ChangeCurrentCategoryService/CategoryState.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/ChangeCurrentCategoryService/ChangeCurrentCategoryService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/ChangeUserNameService/ChangeUserNameService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CoreDataService/CoreDataService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CoreDataService/Models/BasketProduct+CoreDataClass.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CoreDataService/Models/BasketProduct+CoreDataProperties.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CoreDataService/Models/UserData+CoreDataClass.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CoreDataService/Models/UserData+CoreDataProperties.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CoreDataService/PersistenService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CreateAddressService/CreateAddressModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/CreateAddressService/CreateAddressService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/DaDataService/DaDataService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/FeedbackGeneratorService/FeedbackGeneratorService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/InfoAlertService/InfoAlertService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/LoadingService/LoadingService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/LocalBasketService/LocalBasketService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/LocationSevice/LocationService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/LottieService/LottieSetup.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/MapService/MapService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/MenuService/MenuService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/OrdersService/OrdersService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/RegistrationServices/RegistrationServices.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/TestingAddressService/TestingAddressService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/WarningService/WarningService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/Services/YandexMapService/YandexMapService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/Support/TypeAliases/CustomType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/ZanjabilHalal.xcdatamodeld/.xccurrentversion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ZanjabilHalal/ZanjabilHalal.xcdatamodeld/ZanjabilHalal.xcdatamodel/contents" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BOa7jSw9c2aHfTUpj2saD2gDcO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02e72075-caef-426b-95e0-8744ca2eaaaf" name="Changes" comment="" />
+      <created>1656779419841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656779419841</updated>
+      <workItem from="1656779421301" duration="1842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
