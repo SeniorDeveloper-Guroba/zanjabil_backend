@@ -27,18 +27,19 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = 'zanjabil_backend.User'
+#AUTH_USER_MODEL = 'zanjabil_backend.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'zanjabil_backend.apps.ZanjabilBackendConfig',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'zanjabil_backend'
 ]
 
 MIDDLEWARE = [
@@ -118,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
