@@ -51,6 +51,21 @@ class RestaurantAPIView(generics.ListAPIView):
         restaurant["address"] = addressSerializer.data
         return Response(restaurant)
 
+class AddressAPIView(generics.ListAPIView):
+
+    def post(self, request):
+        newAddress = AddressModel.objects.create(
+            name=models.data['name'],
+            street=models.data['street'],
+            longitude=models.data['longitude'],
+            latitude=models.data['latitude'],
+            isDefault=models.data['isDefault'],
+            intercom=models.data['intercom'],
+            city=models.data['city'],
+            build=models.data['build'],
+            apartment=models.data['apartment'],
+        )
+
     #model_to_dict
     # def get(self, request):
     #     restaurant = Restaurant.objects.get(id=1)
