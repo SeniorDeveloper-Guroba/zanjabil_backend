@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-8t*1mdp*8i%se)(_&c9y4bqy7q^^g@-@idmk8*7i(19cr=wi#s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*', "0.0.0.0"]
 
 #AUTH_USER_MODEL = 'zanjabil_backend.User'
 
@@ -84,8 +84,8 @@ DATABASES = {
         'NAME': os.environ.get('POSTGRES_DB'),
         'USER': os.environ.get('POSTGRES_USER'),
         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-        'HOST': "localhost",
-        'PORT': 5430
+        'HOST': "db",
+        'PORT': 5432
 
     }
 }
