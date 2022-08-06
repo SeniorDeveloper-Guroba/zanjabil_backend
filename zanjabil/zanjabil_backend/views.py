@@ -1,9 +1,11 @@
+from django.forms import model_to_dict
 from rest_framework import generics
 from django.shortcuts import render, HttpResponse
 from django.http import JsonResponse
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from .models import *
+import requests
 from zanjabil_backend.serializers import *
 
 
@@ -54,17 +56,30 @@ class RestaurantAPIView(generics.ListAPIView):
 class AddressAPIView(generics.ListAPIView):
 
     def post(self, request):
+        serializer = AddressSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+
         newAddress = AddressModel.objects.create(
-            name=models.data['name'],
-            street=models.data['street'],
-            longitude=models.data['longitude'],
-            latitude=models.data['latitude'],
-            isDefault=models.data['isDefault'],
-            intercom=models.data['intercom'],
-            city=models.data['city'],
-            build=models.data['build'],
-            apartment=models.data['apartment'],
+            name=request.data['name'],
+            street=request.data['street'],
+            longitude=request.data['longitude'],
+            latitude=request.data['latitude'],
+            isDefault=request.data['isDefault'],
+            intercom=request.data['intercom'],
+            city=request.data['city'],
+            build=request.data['build'],
+            apartment=request.data['apartment'],
         )
+        return Response({'address': model_to_dict(newAddress)})
+
+# class DeliveryPrice(generics.ListAPIView):
+#
+#     def get(self, request):
+#         url = "https://b2b.taxi.yandex.net/b2b/cargo/integration/v1/check-price"
+#         response = requests.get(url)
+#
+#         print(response.status_code)
+#         return Response({'address': ''})
 
     #model_to_dict
     # def get(self, request):

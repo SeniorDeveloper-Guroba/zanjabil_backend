@@ -11,7 +11,7 @@ class AddressSerializer(serializers.Serializer):
     street = serializers.CharField(max_length=255)
     longitude = serializers.DecimalField(max_digits=20, decimal_places=6)
     latitude = serializers.DecimalField(max_digits=20, decimal_places=6)
-    isDefault = serializers.BooleanField(default=False)
+    isDefault = serializers.BooleanField(read_only=True)
     intercom = serializers.CharField(max_length=255)
     city = serializers.CharField(max_length=255)
     build = serializers.CharField(max_length=255)
