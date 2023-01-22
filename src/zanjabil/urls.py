@@ -18,13 +18,13 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-from zanjabil_backend.views import RestaurantAPIView
+from apps.zanjabil_backend.views import RestaurantAPIView
+
 
 urlpatterns = [
-
-    #path('zanjabil_backend/', include('zanjabil_backend.urls')),#include - это добавление
-    path('api/zanjabil_backend/', include('zanjabil_backend.urls')),
-    path('admin', admin.site.urls),
+    # path('zanjabil_backend/', include('zanjabil_backend.urls')),#include - это добавление
+    path("api/zanjabil_backend/", include("apps.zanjabil_backend.urls")),
+    path("admin", admin.site.urls),
 ]
 
 if settings.DEBUG:

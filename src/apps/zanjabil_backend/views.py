@@ -4,7 +4,7 @@ from django.http import JsonResponse
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from .models import *
-from zanjabil_backend.serializers import *
+from apps.zanjabil_backend.serializers import *
 
 
 # def index(request):
@@ -27,8 +27,8 @@ from zanjabil_backend.serializers import *
 #     sendRestaurant["menu"] = restaurant.menu
 #     return JsonResponse(sendRestaurant)
 
-class RestaurantAPIView(generics.ListAPIView):
 
+class RestaurantAPIView(generics.ListAPIView):
     def get(self, request):
         #
         addressModel = AddressModel.objects.get(id=3)
@@ -51,7 +51,7 @@ class RestaurantAPIView(generics.ListAPIView):
         restaurant["address"] = addressSerializer.data
         return Response(restaurant)
 
-    #model_to_dict
+    # model_to_dict
     # def get(self, request):
     #     restaurant = Restaurant.objects.get(id=1)
     #     sendRestaurant = {}
@@ -61,6 +61,6 @@ class RestaurantAPIView(generics.ListAPIView):
     #     sendRestaurant["menu"] = restaurant.menu
     #     return JsonResponse(sendRestaurant)
 
-    #queryset = Restaurant.objects.all()
-    #serializer_class = RestaurantSerializer
-    #restaurant = Restaurant.objects.all().values()
+    # queryset = Restaurant.objects.all()
+    # serializer_class = RestaurantSerializer
+    # restaurant = Restaurant.objects.all().values()
