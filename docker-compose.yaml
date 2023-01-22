@@ -1,28 +1,32 @@
-version: "3"
+version: "3.9"
 
 services:
-  web:
-    image: python:3.10
-    depends_on:
-      - db
-    volumes:
-      - .:/opt/zanjabil
-    container_name: zanjabil-web
-    ports:
-      - "0.0.0.0:8000:8000"
-    env_file: .env
-    working_dir: /opt/zanjabil
-    command: /bin/bash -c 'scripts/run-server.sh'
-
   db:
     image: postgres:12.0-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    restart: always
     container_name: zanjabil-db
+    env_file:
+      - .env
+    ports:
+      - ${POSTGRES_PORT-5432}:5432
+
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    depends_on:
+      - db
+    restart: always
+    container_name: zanjabil-server
+    volumes:
+      - ./static:/opt/pysetup/src/static
+      - ./media:/opt/pysetup/src/media
     env_file: .env
     ports:
-      - 5430:5432
-
+      - ${SERVER_PORT-8080}:8000
 
 volumes:
   postgres_data:
