@@ -6,6 +6,7 @@ from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from .models import *
 from apps.zanjabil_backend.serializers import *
+from .serializers import AddressSerializer
 
 # def index(request):
 #     text = ""
@@ -26,7 +27,6 @@ from apps.zanjabil_backend.serializers import *
 #     sendRestaurant["address"] = restaurant.address
 #     sendRestaurant["menu"] = restaurant.menu
 #     return JsonResponse(sendRestaurant)
-
 
 class RestaurantAPIView(generics.ListAPIView):
     def get(self, request):
