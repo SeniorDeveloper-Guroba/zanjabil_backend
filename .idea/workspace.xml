@@ -5,12 +5,183 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e72075-caef-426b-95e0-8744ca2eaaaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/delivery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zanjabil/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zb/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zanjabil/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/zanjabil/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zanjabil/zanjabil_backend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/zanjabil_backend/delivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/delivery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/zanjabil_backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/nav_sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/nav_sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zanjabil/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zanjabil/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zanjabil/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/delivery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0002_alter_dish_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0002_alter_dish_price.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0003_alter_dish_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0003_alter_dish_price.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0004_alter_dish_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0004_alter_dish_price.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0005_rename_menu_category_restaurant_menu_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0005_rename_menu_category_restaurant_menu_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0006_alter_address_latitude_alter_address_longitude.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0006_alter_address_latitude_alter_address_longitude.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0007_alter_menu_options_alter_menucategory_options_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0007_alter_menu_options_alter_menucategory_options_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0008_alter_menucategory_icon_alter_menucategory_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0008_alter_menucategory_icon_alter_menucategory_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0009_alter_menucategory_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0009_alter_menucategory_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0010_remove_menu_category_remove_menucategory_dishes_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0010_remove_menu_category_remove_menucategory_dishes_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0011_rename_menu_restaurant_menu_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0011_rename_menu_restaurant_menu_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0012_alter_address_apartment_alter_address_build_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0012_alter_address_apartment_alter_address_build_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/0013_rename_address_addressmodel_rename_dish_dishmodel_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/0013_rename_address_addressmodel_rename_dish_dishmodel_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/zanjabil_backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zanjabil_backend/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zanjabil/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zanjabil/zb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zb/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
